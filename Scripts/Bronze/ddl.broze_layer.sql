@@ -27,8 +27,8 @@ CREATE TABLE bronze.crm_prd_info
 	prd_name NVARCHAR(100),
 	prd_cost INT,
 	prd_line NVARCHAR(100),
-	prd_start_date DATE,
-	prd_end_date DATE
+	prd_start_date DATETIME,
+	prd_end_date DATETIME
 );
 
 DROP TABLE IF EXISTS bronze.crm_sales_details;
