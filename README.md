@@ -21,13 +21,13 @@ The project covers:
 
 The project follows a layered architecture:
 
-1. **Bronze Layer**  
+1. **Bronze Layer**
    Stores raw data exactly as received from source files.
 
-2. **Silver Layer**  
+2. **Silver Layer**
    Cleans, standardizes, and transforms the raw data.
 
-3. **Gold Layer**  
+3. **Gold Layer**
    Contains business-ready fact and dimension tables for reporting and analysis.
 
 ```text
@@ -41,6 +41,10 @@ Gold Layer
      ↓
 Analytical Reports
 ```
+
+<p align="center">
+  <img src="docs/data-warehouse-architecture.svg" alt="Lokesh Data Warehouse Architecture" width="1200" />
+</p>
 
 ## 🗂️ Project Structure
 
